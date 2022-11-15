@@ -12,6 +12,11 @@ public class PropertiesFileUse {
 		
 		Properties prop = new Properties();
 	     
+ FileInputStream  fis = new FileInputStream(System.getProperty("user.dir") + "/src/main/java/com/testData/pepperstone.properties");
+	     
+		 prop.load(fis);
+		     
+		return prop.getProperty(value);
  
 	     
 	  

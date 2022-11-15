@@ -14,9 +14,6 @@ public class LoginTest extends BaseTest{
 		
 	lp27.loginPepperStone();
 	
-	System.out.println("atulMishra27");
 	
-	System.out.println("today changes modified ");
-		
 	}
 }
